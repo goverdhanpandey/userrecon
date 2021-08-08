@@ -1,6 +1,6 @@
 # UserRecon v1.0
-# Author: @thelinuxchoice
-# https://github.com/thelinuxchoice/userrecon
+# Author: @goverdhanpandey
+# https://github.com/goverdhanpandey/userrecon.git
 
 # Some of "Found!" result is wrong/incorrect
 Edit "grep -o 'sometexthere' ; echo $?" to fix the problem
@@ -45,8 +45,7 @@ This is useful if you are running an investigation to determine the usage of the
 
 $ sudo apt update && apt upgrade
 
-$ git clone https://github.com/wishihab/userrecon.git
-
+$ git clone https://github.com/goverdhanpandey/userrecon.git
 $ cd userrecon
 
 $ ./userrecon.sh
